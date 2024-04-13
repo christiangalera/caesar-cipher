@@ -1,4 +1,4 @@
-function caesarCypher (message: any, key: any): string {
+function caesarCypher(message: any, key: any): string {
   // decode message
   if(key < 0) return caesarCypher(message, key + 26)
 
